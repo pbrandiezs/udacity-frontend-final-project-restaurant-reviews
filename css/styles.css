@@ -281,7 +281,15 @@ nav h1 a {
 
 @media screen and (max-width: 500px) {
   body {
-      width: 100%;
+    width: 100%;
+  }
+
+  .filter-options {
+    height: 145px;
+  }
+
+  .filter-options select {
+    width: 60%;
   }
 }
 
