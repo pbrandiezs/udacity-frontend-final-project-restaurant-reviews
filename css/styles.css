@@ -152,8 +152,8 @@ nav h1 a {
   display: block;
   margin: 0;
   max-width: 100%;
-  min-height: 248px;
   min-width: 100%;
+  height: auto;
 }
 #restaurants-list li h1 {
   color: #f18200;
@@ -278,6 +278,25 @@ nav h1 a {
 @media screen and (max-width: 500px) {
   body {
       width: 100%;
+  }
+}
+
+@media screen and (min-width: 501px) {
+  body {
+      max-width: 1000px;
+  }
+
+  #restaurants-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #restaurants-list li {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border: 2px solid #ccc;
+    padding: 10px;
   }
 }
 
