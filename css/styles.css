@@ -285,4 +285,17 @@ nav h1 a {
   body {
       max-width: 1000px;
   }
+
+  #restaurants-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #restaurants-list li {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 2px solid #ccc;
+    padding: 10px;
+  }
 }
