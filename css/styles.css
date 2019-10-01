@@ -317,7 +317,8 @@ nav h1 a {
     position: relative;
   }
   #breadcrumb {
-    width: 100%;
+    width: 89%;
+    padding: 10px 0px 16px 40px;
   }
   #maincontent {
     flex-direction: column-reverse;
@@ -363,7 +364,11 @@ nav h1 a {
 
 @media screen and (min-width: 501px) {
   body {
-      max-width: 1000px;
+    max-width: 1000px;
+  }
+  #breadcrumb {
+    max-width: 40%;
+    padding: 10px 0px 16px 40px;
   }
 
   #restaurants-list {
