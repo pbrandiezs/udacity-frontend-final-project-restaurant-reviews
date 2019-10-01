@@ -316,6 +316,9 @@ nav h1 a {
   .inside header {
     position: relative;
   }
+  #breadcrumb {
+    width: 100%;
+  }
   #maincontent {
     flex-direction: column-reverse;
   }
