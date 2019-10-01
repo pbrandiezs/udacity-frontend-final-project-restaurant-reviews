@@ -311,15 +311,48 @@ nav h1 a {
 
 @media screen and (max-width: 500px) {
   body {
+    max-width: 100%;
+  }
+  .inside header {
+    position: relative;
+  }
+  #maincontent {
+    flex-direction: column-reverse;
+  }
+  #right-side {
+    display: inline-block;
+    /* flex-direction: column;*/
+    width: 90%;
+  }
+  .inside #map-container {
+    background: blue none repeat scroll 0 0;
+    height: 400px;
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .inside #map {
+    background-color: #ccc;
+    height: 100%;
     width: 100%;
   }
-
+  #left-side {
+    display: inline-block;
+    /*flex-direction: column;*/
+    width: 90%;
+  }
   .filter-options {
     height: 145px;
   }
-
   .filter-options select {
     width: 60%;
+  }
+  .inside #footer {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    padding: 25px 0px 25px;
   }
 }
 
