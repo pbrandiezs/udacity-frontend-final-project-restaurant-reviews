@@ -321,7 +321,7 @@ nav h1 a {
   }
   #right-side {
     display: inline-block;
-    /* flex-direction: column;*/
+    height: 400px;
     width: 90%;
   }
   .inside #map-container {
@@ -339,7 +339,6 @@ nav h1 a {
   }
   #left-side {
     display: inline-block;
-    /*flex-direction: column;*/
     width: 90%;
   }
   .filter-options {
@@ -347,6 +346,9 @@ nav h1 a {
   }
   .filter-options select {
     width: 60%;
+  }
+  #restaurant-container {
+    padding: 5px 40px 30px;
   }
   .inside #footer {
     position: relative;
