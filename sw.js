@@ -11,13 +11,12 @@ var urlsToCache = [
 
 /* install */
 self.addEventListener('install', function(event) {
-  event.waitUntil(
-    caches.open(CACHE_NAME)
+  event.waitUntil(
+    caches.open(CACHE_NAME)
       .then(function(cache) {
-        console.log('Opened cache');
-        return cache.addAll(urlsToCache);
-      })
-    );
+        return cache.addAll(urlsToCache);
+      })
+    );
   });
 
 /* activate */
@@ -29,23 +28,19 @@ self.addEventListener('activate', function(event) {
 
 /* fetch */
 self.addEventListener('fetch', function(event) {
-  console.log('Handling fetch event for', event.request.url);
-  event.respondWith(
-    caches.match(event.request)
+  event.respondWith(
+    caches.match(event.request)
       .then(function(response) {
         // Cache hit - return response
-        if (response) {
-          console.log('Found response in cache:', response);
-          return response;
-        }
+        if (response) {
+          return response;
+        }
         return fetch(event.request).then(
           function(response) {
             // Check if a valid response
-            console.log('Found resonse from network:', response);
             if(!response || response.status !== 200 || response.type !== 'basic') {
               return response;
             }
-            console.log('Fetching request from the network');
             var responseToCache = response.clone();
             caches.open(CACHE_NAME)
               .then(function(cache) {
@@ -57,5 +52,3 @@ self.addEventListener('fetch', function(event) {
       })
     );
 });
-
-
