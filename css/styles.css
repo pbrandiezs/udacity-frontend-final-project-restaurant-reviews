@@ -136,13 +136,14 @@ nav h1 a {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1;
-  margin: 0 20px;
+  margin: 0 10px;
+  padding: 10px 0 0 0;
 }
 .filter-options select {
   background-color: white;
   border: 1px solid #fff;
   font-family: Arial,sans-serif;
-  font-size: 11pt;
+  font-size: 1rem;
   height: 35px;
   letter-spacing: 0;
   margin: 10px;
@@ -152,10 +153,9 @@ nav h1 a {
 .filter-options label {
   color: white;
   font-family: Arial,sans-serif;
-  font-size: 10pt;
+  font-size: 1rem;
   letter-spacing: 0;
-  margin: 5px;
-  padding: 0 10px;
+  margin: 0 0 0 10px;
 }
 
 /* ====================== Restaurant Listing ====================== */
@@ -375,7 +375,10 @@ nav h1 a {
     max-width: 1000px;
   }
   .filter-options label {
-    font-size: 12pt;
+    font-size: 1rem;
+  }
+  .filter-options select {
+    margin: 10px 0;
   }
   #breadcrumb {
     max-width: 40%;
@@ -401,6 +404,9 @@ nav h1 a {
   }
   .filter-options label {
     font-size: 12pt;
+  }
+  .filter-options select {
+    margin: 10px 10px;
   }
   #restaurants-list {
     display: flex;
