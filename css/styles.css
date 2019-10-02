@@ -148,6 +148,14 @@ nav h1 a {
   padding: 0 10px;
   width: 30%;
 }
+.filter-options label {
+  color: white;
+  font-family: Arial,sans-serif;
+  font-size: 10pt;
+  letter-spacing: 0;
+  margin: 5px;
+  padding: 0 10px;
+}
 
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
@@ -367,16 +375,17 @@ nav h1 a {
   body {
     max-width: 1000px;
   }
+  .filter-options label {
+    font-size: 12pt;
+  }
   #breadcrumb {
     max-width: 40%;
     padding: 10px 0px 16px 40px;
   }
-
   #restaurants-list {
     display: flex;
     flex-wrap: wrap;
   }
-
   #restaurants-list li {
     display: flex;
     flex-direction: column;
@@ -390,12 +399,13 @@ nav h1 a {
   body {
       max-width: 1000px;
   }
-
+  .filter-options label {
+    font-size: 12pt;
+  }
   #restaurants-list {
     display: flex;
     flex-wrap: wrap;
   }
-
   #restaurants-list li {
     display: flex;
     flex-direction: column;

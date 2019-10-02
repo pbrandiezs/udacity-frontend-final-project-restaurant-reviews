@@ -163,6 +163,9 @@ createRestaurantHTML = (restaurant) => {
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
   image.alt = restaurant.name;
   image.title = restaurant.name;
+  image.onclick = function() {
+    window.location.href = DBHelper.urlForRestaurant(restaurant);
+  };
   li.append(image);
 
   const name = document.createElement('h1');
