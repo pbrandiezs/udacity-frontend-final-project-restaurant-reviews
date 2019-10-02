@@ -2,8 +2,6 @@ var CACHE_NAME = 'restaurant-reviews-v1';
 var urlsToCache = [
   '/',
   'restaurant.html',
-  'sw.js',
-  'registersw.js',
   'css/styles.css',
   'js/dbhelper.js',
   'js/main.js',
