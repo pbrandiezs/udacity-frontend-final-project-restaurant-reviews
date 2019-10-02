@@ -123,6 +123,9 @@ nav h1 a {
   width: 100%;
   background-color: #ccc;
 }
+.leaflet-container a {
+  color: #005D85;
+}
 
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
