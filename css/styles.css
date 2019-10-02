@@ -52,6 +52,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   text-align: center;
   text-transform: uppercase;
 }
+
 /* ====================== Navigation ====================== */
 nav {
   width: 100%;
@@ -167,7 +168,6 @@ nav h1 a {
 }
 #restaurants-list li {
   background-color: #fff;
-  /* border: 2px solid #ccc; */
   font-family: Arial,sans-serif;
   margin: 0;
   min-height: 380px;
@@ -221,7 +221,6 @@ nav h1 a {
   background: blue none repeat scroll 0 0;
   height: 40%;
   position: sticky;
-  /* right: 0; */
   top: 80px;
   width: 100%;
   max-width: 100%;
@@ -305,19 +304,18 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
-
 #right-side {
   display: flex;
   flex-direction: column;
   width: 90%;
 }
-
 #left-side {
   display: flex;
   flex-direction: column;
   width: 90%;
 }
 
+/* Small screens */
 @media screen and (max-width: 500px) {
   body {
     max-width: 100%;
@@ -371,6 +369,7 @@ nav h1 a {
   }
 }
 
+/* Mid-size screens */
 @media screen and (min-width: 501px) {
   body {
     max-width: 1000px;
@@ -395,9 +394,10 @@ nav h1 a {
   }
 }
 
+/* Larger screens */
 @media screen and (min-width: 1000px) {
   body {
-      max-width: 2000px;
+    max-width: 2000px;
   }
   .filter-options label {
     font-size: 12pt;
