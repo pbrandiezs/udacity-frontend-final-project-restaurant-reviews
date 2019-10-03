@@ -1,5 +1,7 @@
 var newMap;
 
+import * as DBHelper from 'js/dbhelper.js';
+
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
  */
@@ -186,5 +188,4 @@ const addMarkersToMap = (restaurants = self.restaurants) => {
         }
         self.markers.push(marker);
     });
-
 };
