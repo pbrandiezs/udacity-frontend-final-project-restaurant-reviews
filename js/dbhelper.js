@@ -1,9 +1,9 @@
-import * as L from 'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js';
+// import * as L from 'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js';
 
 /**
  * Common database helper functions.
  */
-export class DBHelper {
+class DBHelper {
 
     /**
      * Database URL.
