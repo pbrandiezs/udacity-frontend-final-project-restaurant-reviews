@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 var newMap;
 
 // import * as DBHelper from 'js/dbhelper.js';
