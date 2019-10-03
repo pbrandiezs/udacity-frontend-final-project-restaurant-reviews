@@ -1,4 +1,3 @@
-let restaurant;
 var newMap;
 
 import * as DBHelper from 'js/dbhelper.js';
