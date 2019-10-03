@@ -105,7 +105,7 @@ const updateRestaurants = () => {
             resetRestaurants(restaurants);
             fillRestaurantsHTML();
         }
-    })
+    });
 };
 
 /**
