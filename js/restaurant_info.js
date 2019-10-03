@@ -7,7 +7,7 @@ import * as L from 'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js';
 /**
  * Initialize map as soon as the page is loaded.
  */
-document.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener('DOMContentLoaded', () => {
     initMap();
 });
 
