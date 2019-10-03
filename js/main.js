@@ -1,9 +1,6 @@
 /* eslint-disable no-undef */
 var newMap;
 
-// import * as DBHelper from 'js/dbhelper.js';
-// import * as L from 'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js';
-
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
  */
