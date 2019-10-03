@@ -1,7 +1,9 @@
+import * as L from 'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js';
+
 /**
  * Common database helper functions.
  */
-class DBHelper {
+export class DBHelper {
 
     /**
      * Database URL.
@@ -131,9 +133,9 @@ class DBHelper {
                 callback(error, null);
             } else {
                 // Get all cuisines from all restaurants
-                const cuisines = restaurants.map((v, i) => restaurants[i].cuisine_type)
+                const cuisines = restaurants.map((v, i) => restaurants[i].cuisine_type);
                 // Remove duplicates from cuisines
-                const uniqueCuisines = cuisines.filter((v, i) => cuisines.indexOf(v) == i)
+                const uniqueCuisines = cuisines.filter((v, i) => cuisines.indexOf(v) == i);
                 callback(null, uniqueCuisines);
             }
         });
