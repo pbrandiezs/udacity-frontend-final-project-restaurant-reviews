@@ -2,7 +2,17 @@
 
 Udacity Front End Web Development Final Project - Restaurant Reviews Application
 
-# Programs: index.html, restaurant.html, css/style.css, js/main.js, js/restaurant_info.js, js/dbhelper.js, registersw.js, sw.js
+## Programs:
+* index.html
+* restaurant.html
+* css/style.css
+* js/main.js
+* js/restaurant_info.js
+* js/dbhelper.js
+* registersw.js
+* sw.js
+
+## Author
 * Author: Perry Brandiezs
 * Date: October 3, 2019
 
