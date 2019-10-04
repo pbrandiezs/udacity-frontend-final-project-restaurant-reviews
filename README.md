@@ -17,7 +17,10 @@ Udacity Front End Web Development Final Project - Restaurant Reviews Application
 * Date: October 3, 2019
 
 ### Overview
-* This project is a demonstration of several Front End Web Development skills: working with Service Workers / Offline web design, A11Y accessibility, responsive web design, and using map API's.  Initial starter code has been provided.  The project consists of modifying the starter code extensively (including resolving issues), implementing a service worker, A11Y accesibility implementation, and modifying the layout for a responsive design, supporting mobile devices through desktop.  The service worker implementation provides for a more responsive site during poor or offline connections.
+* This project is a demonstration of several Front End Web Development skills: working with Service Workers / Offline web design, A11Y accessibility, responsive web design, and using map API's, html, javascript, and CSS.
+* Initial starter code has been provided.
+* The project consists of modifying the starter code extensively (including resolving issues), implementing a service worker, A11Y accesibility implementation, and modifying the layout for a responsive design, supporting mobile devices through desktop.
+* The service worker implementation provides for a more responsive site during poor or offline connections.
 
 ### Summary of third-party resources used:
 * Initial starter code provided by Udacity:
@@ -34,7 +37,7 @@ https://www.mapbox.com
 
 
 ## The original Udacity readme for the assignment is below
-
+---
 # Mobile Web Specialist Certification Course
 ---
 #### _Three Stage Course Material Project - Restaurant Reviews_
