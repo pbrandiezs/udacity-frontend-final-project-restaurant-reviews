@@ -8,6 +8,9 @@
  web pages, allowing the site, for pages previously visited, to be better used offline
  or with limited connectivity.
 
+ Reference site used:
+ https://developers.google.com/web/fundamentals/primers/service-workers/
+
 */
 var CACHE_NAME = 'restaurant-reviews-v1';
 var urlsToCache = [
