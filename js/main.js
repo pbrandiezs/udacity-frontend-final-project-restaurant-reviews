@@ -1,3 +1,13 @@
+/*
+ Program: main.js
+ Author: Perry Brandiezs
+ Date: October 4, 2019
+
+
+ This program is the main javascript program for the restaurant reviews application.  It pulls from
+ restaurant_info.js, and in turn dbhelper.js to populate the information.
+
+*/
 /* eslint-disable no-undef */
 var newMap;
 

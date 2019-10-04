@@ -1,3 +1,14 @@
+/*
+ Program: sw.js
+ Author: Perry Brandiezs
+ Date: October 4, 2019
+
+
+ This program is the Service Worker for the restaurant reviews application.  This worker caches
+ web pages, allowing the site, for pages previously visited, to be better used offline
+ or with limited connectivity.
+
+*/
 var CACHE_NAME = 'restaurant-reviews-v1';
 var urlsToCache = [
     '/',

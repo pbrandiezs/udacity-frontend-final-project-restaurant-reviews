@@ -14,7 +14,7 @@ Udacity Front End Web Development Final Project - Restaurant Reviews Application
 
 ## Author
 * Author: Perry Brandiezs
-* Date: October 3, 2019
+* Date: October 4, 2019
 
 ### Overview
 * This project is a demonstration of several Front End Web Development skills: working with Service Workers / Offline web design, A11Y accessibility, responsive web design, and using map API's, html, javascript, and CSS.

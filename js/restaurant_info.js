@@ -1,3 +1,13 @@
+/*
+ Program: restaurant_info.js
+ Author: Perry Brandiezs
+ Date: October 4, 2019
+
+
+ This program provides restaurant info to the application.  restaurant_info.js interacts with
+ main.js and dbhelper.js.
+
+*/
 /* eslint-disable no-undef */
 var newMap;
 

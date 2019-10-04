@@ -1,3 +1,13 @@
+/*
+ Program: dbhelper.js
+ Author: Perry Brandiezs
+ Date: October 4, 2019
+
+
+ This program is the dbhelper for the restaurant reviews application, pulling
+ the data from /data/restaurants.json for this exercise.
+
+*/
 /* eslint-disable no-undef */
 
 /**
