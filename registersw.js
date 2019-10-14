@@ -10,7 +10,7 @@
 /* register */
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function () {
-        navigator.serviceWorker.register('/sw.js').then(function () {
+        navigator.serviceWorker.register('sw.js').then(function () {
             // Registration was successful
             /* console.log('ServiceWorker registration successful with scope: ', registration.scope); */
         }, function (err) {
